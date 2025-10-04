@@ -1,4 +1,4 @@
-# SpaceTrash Hack: Revolutionizing Recycling on Mars
+# SpaceTrash Hack: Revolutionizing Recycling on Mars 🚀
 
 
 1. Introdução:
