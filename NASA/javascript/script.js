@@ -16,8 +16,8 @@ const textOverlays = document.querySelectorAll('.text-overlay');
 const videoOverlay = document.getElementById('video-overlay');
 // Adicione as linhas abaixo
 const rocketImg = document.getElementById('rocket-img');
-const staticRocket = '/images/rocket_trans.png'; // Caminho para a imagem estática
-const animatedRocket = '/images/rocket.gif'; // Caminho para o GIF animado
+const staticRocket = '/NASA/images/rocket_trans.png'; // Caminho para a imagem estática
+const animatedRocket = '/NASA/images/rocket.gif'; // Caminho para o GIF animado
 let scrollTimeout; // Variável para controlar o nosso temporizador
 // Fim da adição
 
