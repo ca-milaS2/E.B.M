@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url('/docs/images/background_mars.png');
+    background-image: url('/images/background_mars.png');
     /* Caminho para sua imagem */
     background-size: cover;
     /* Faz a imagem cobrir toda a área, cortando se necessário */
