@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Mars</title>
+
+    <link rel="stylesheet" href="/docs/style/document.css">
+
+    <link rel="icon" type="image/png" href="/docs/images/earth.png">
+</head>
+
+<body>
+    <h1>Welcome to the Red Planet!</h1>
+
+    <video class="pitch-video" controls>
+        <source src="/docs/videos/pitch.mp4" type="video/mp4">
+        Seu navegador não suporta o player de vídeo.
+    </video>
+
+    <div class="text">
+        <p>The feasibility of constructing an isolated habitat is directly supported by field-tested applications of
+            CTBs (Cargo Transfer Bag), as detailed in the <a rel="sites" href="https://hdl.handle.net/2014/45116">"Dual
+                Use of Packaging on the Moon:
+                Logistics-2-Living"</a> document. These packages can be repurposed for both internal and external
+            structures.</p>
+
+        <p><strong>Internal Compartmentalization:</strong> For creating isolated internal spaces, the document points to
+            a practical result:</p>
+        <blockquote>"In addition to the right and left halves of the geo-science workstation, partitions and doors were
+            installed using unfolded L2L2009 CTBs, creating a small compartment that could be sealed off from the rest
+            of the Microhab."</blockquote>
+        <p>This proves that CTBs can effectively create functional modules, essential for establishing dedicated
+            workspaces.</p>
+
+        <p><strong>External Structures:</strong> Furthermore, the concept scales up to the construction of robust
+            external structures, treating the CTB as a primary building material:</p>
+        <blockquote>"It has also been proposed to use expended CTBs external to the outpost as bricks for in-situ
+            structures. Empty CTBs would be filled with regolith and piled in alternating courses..."</blockquote>
+        <p>This use of CTBs for civil construction allows for the creation of protective walls, supporting the
+            development of a fully independent habitat.</p>
+
+        <h2>The Core System: Closed-Loop Manufacturing from Mission Waste</h2>
+        <p>A critical aspect of the habitat's autonomy is its ability to convert waste into valuable resources. We
+            propose a dedicated module that houses a sufficient number of shredders and an electromagnetic inductor to
+            transform plastic and metallic trash into standardized 3D printing filament.</p>
+
+        <h3>The Technology: Electromagnetic Induction Heating</h3>
+        <p>This system's core is electromagnetic induction, a versatile technology for processing both polymers and
+            metals. As described by Mariani and Malucelli (2023), it efficiently heats polymer composites. Furthermore,
+            its effectiveness in processing aluminum alloys—a common aerospace waste material—has been confirmed by
+            Gariépy and D’Amours (2023), making it an ideal all-in-one solution.</p>
+
+        <h3>The Process: From Recycled Waste to Filament</h3>
+        <p>The manufacturing process for 3D filament begins with the critical step of drying polymer pellets to remove
+            any absorbed moisture. Subsequently, these pellets are melted and forced through a precision nozzle within
+            an extruder to form a continuous strand. This filament is then immediately cooled in a water bath while its
+            diameter is continuously monitored and adjusted in real-time via a feedback loop between a laser micrometer
+            and a set of pullers. Finally, the precisely dimensioned filament is wound onto spools, and the final
+            product is vacuum-sealed with a desiccant to ensure its quality and prevent moisture reabsorption.</p>
+
+        <h2>Addressing Challenges: Advanced Composites from Recycled Materials</h2>
+        <p>While recycling is promising, utilizing recycled materials for high-performance applications presents known
+            challenges, especially when incorporating reinforcing agents like carbon fiber (CF).</p>
+        <blockquote>"The electrophoretic deposition of CNT/MFC onto the surface of recycled carbon fibers proved to be
+            an effective method for enhancing the adhesion and interaction between the matrix and fibers... enhancing
+            chemical bonding sites with the polymer matrix."</blockquote>
+
+        <h2>Powering the System: Energy Autonomy from Packaging</h2>
+        <p>To achieve true autonomy, the habitat and its recycling systems require a self-sufficient power source. The
+            "Dual Use of Packaging" document presents an elegant solution by integrating power generation directly into
+            the CTB material itself:</p>
+        <blockquote>"...A third proposal was to manufacture the rectangles with flexible photovoltaic sections, so that
+            the empty CTB could be used to lay across the ground outside and increase the power-generation capacity of
+            the outpost."</blockquote>
+
+        <h2>Problems to be solved</h2>
+        <h3>Waste Generated</h3>
+        <p>The heating of plastic waste will generate Volatile Organic Compounds (VOCs). According to the U.S.
+            Environmental Protection Agency, VOCs are compounds that have a high vapor pressure and low water
+            solubility. There are various methods to capture these emissions, including incineration, condensation,
+            absorption, and biological methods.</p>
+
+        <h3>Filtering different types of polymers and aluminum alloys</h3>
+        <p>To reutilize the polymer needs to be pure, the presence of unwanted materials may compromise the process of
+            rearranging the polymer or aluminum. The separation by identification code in the polymer item may help and
+            an exclusive shredder for determined material may prevent contamination.</p>
+
+        <button class="references-button" id="toggle-references-btn">Show References</button>
+
+        <div class="references-box hidden" id="references-container">
+            <h4>References:</h4>
+            <ul>
+                <li>Carr, J. L., & Simon, M. A. (2015). <em>Dual Use of Packaging on the Moon: Logistics-2-Living</em>.
+                    NASA.
+                </li>
+                <li>Dhamodharan, K. (2019). Review on control of volatile organic compounds from industrial emission.
+                </li>
+                <li>Fazeli, M., Corbett, B., & Zare, Y. (2024). Recycling of carbon fibers and their application in
+                    polymer composites.</li>
+                <li>Gariépy, L., & D’Amours, G. (2023). Electromagnetic processing of aluminum alloys.</li>
+                <li>Hoeben, W. F. L. M., et al. (2012). Plasma catalysis for VOC removal.</li>
+                <li>Huang, H., et al. (2014). Catalytic incineration of VOCs.</li>
+                <li>Jo, W. K., & Yang, C. H. (2009). Adsorption of VOCs.</li>
+                <li>Luengas, A., et al. (2015). Condensation of VOCs.</li>
+                <li>Mariani, F., & Malucelli, G. (2023). Electromagnetic heating of polymer composites.</li>
+                <li>Patel, V., et al. (2023). Sustainable manufacturing of composites using 3D printing.</li>
+                <li>U.S. Environmental Protection Agency. (n.d.). <em>Volatile Organic Compounds' Impact on Indoor Air
+                        Quality</em>.</li>
+                <li>Yokosuka, M., et al. (2009). Photocatalytic oxidation of VOCs.</li>
+                <li>Zhang, W., et al. (2017). Membrane separation for VOC recovery.</li>
+            </ul>
+        </div>
+    </div>
+
+    <a href="index.html"
+        style="color: white; text-decoration: none; border: 1px solid white; padding: 10px 20px; border-radius: 5px; margin-top: 20px;">Return
+        to Earth</a>
+
+
+    <script src="/docs/javascript/document.js"></script>
+</body>
+
+</html>

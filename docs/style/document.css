@@ -1,0 +1,115 @@
+* {
+    font-family: 'Century Gothic', sans-serif;
+}
+
+body {
+    background-image: url('/docs/images/background_mars.png');
+    /* Caminho para sua imagem */
+    background-size: cover;
+    /* Faz a imagem cobrir toda a área, cortando se necessário */
+    background-position: center center;
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    /* Evita que a imagem se repita */
+    background-attachment: fixed;
+    /* Mantém a imagem fixa enquanto o conteúdo rola (se houver) */
+    min-height: 100vh;
+    /* Garante que o body ocupe toda a altura da viewport */
+    margin: 0;
+    /* Remove margens padrão do body */
+    padding: 20px 0; /* Adicionado padding para evitar que o conteúdo cole nas bordas */
+    color: white;
+    /* Exemplo: cor do texto para contrastar com o fundo escuro */
+    font-family: Arial, sans-serif;
+    /* Exemplo de fonte */
+    display: flex;
+    /* Exemplo para centralizar conteúdo */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Exemplo de estilo para um título na nova página */
+h1 {
+    margin-top: 100px;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* NOVO ESTILO PARA O VÍDEO */
+.pitch-video {
+    width: 100%;
+    /* O vídeo ocupa toda a largura do container */
+    max-width: 800px;
+    /* Limita o tamanho em telas grandes, alinhando com o parágrafo */
+    height: auto;
+    /* Mantém a proporção correta */
+    margin-top: 40px;
+    /* Espaço entre o título e o vídeo */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    /* Sombra sutil para destaque */
+}
+
+/* Exemplo de estilo para um parágrafo */
+.text {
+    max-width: 80%;
+    text-align: justify;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fundo semi-transparente para o texto */
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* --- NOVOS ESTILOS ADICIONADOS ABAIXO --- */
+
+/* ESTILO DO BOTÃO DE REFERÊNCIAS */
+.references-button {
+    display: block; /* Faz o botão ocupar a largura disponível */
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px; /* Espaço acima do botão */
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: #ffa600; /* Cor de destaque */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.references-button:hover {
+    background-color: #af8101;
+}
+
+/* ESTILO DA CAIXA DE REFERÊNCIAS */
+.references-box {
+    margin-top: 20px;
+    padding: 15px 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-top: 2px solid #ffa600;
+    border-radius: 5px;
+    line-height: 1.6;
+}
+
+.references-box h4 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.references-box ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.references-box a {
+    color: #80caff; /* Cor para os links nas referências */
+}
+
+/* CLASSE PARA OCULTAR A CAIXA */
+.hidden {
+    display: none;
+}
