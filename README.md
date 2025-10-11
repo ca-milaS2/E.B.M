@@ -1,4 +1,4 @@
-# Introduction🚀  
+# Introduction to the Challenge🚀  
 ![Mars](https://github.com/ca-milaS2/E.B.M/blob/main/docs/images/pia02405.webp)
 
 After a long journey through space, Cesinha and his crew finally landed on Mars!
